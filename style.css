@@ -50,9 +50,7 @@ img.photo {
   width: 22vw;
   object-fit: cover;
   margin-top: 12vw;
-  border-style: solid;
-  border-width: 1vh;
-  border-color: rgba(255, 255, 255, 0.13);
+  border: 1vh solid rgba(255, 255, 255, 0.13);
   border-radius: 50%;
   background-color: rgba(215, 215, 215, 0.13);
   -webkit-border-radius: 50%;
@@ -80,9 +78,7 @@ img.photo {
   font-family: "Raleway", sans-serif;
   color: rgb(236, 240, 241);
   background-color: rgba(255, 255, 255, 0.051);
-  border-width: 2px;
-  border-color: rgb(190, 190, 190);
-  border-style: solid;
+  border: 2px solid rgb(190, 190, 190);
   border-radius: 10px;
   line-height: 50px;
   text-align: center;
