@@ -26,7 +26,7 @@ h1 {
   margin: 0;
   padding: 0;
   text-align: center;
-  padding-top: 500px;
+  /*padding-top: 500px;*/
   color: white;
   font-family: Taiga;
   font-size: 44px;
@@ -55,7 +55,36 @@ h1 {
   background-color: rgba(215, 215, 215, 0.13);
 }
 
-.header a{
+.ulstyle {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.ulstyle li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ulstyle li a {
+  display: block;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  color: rgb(236, 240, 241);
+  background-color: rgba(255, 255, 255, 0.051);
+  border-width: 2px;
+  border-color: rgb(190, 190, 190);
+  border-style: solid;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+  width: 159px;
+  margin: 10px;
+}
+
+/*.header a{
   text-decoration: none;
   vertical-align: middle;
   font-size: 24px;
@@ -84,4 +113,4 @@ h1 {
   top: 650px;
   width: 164px;
   height: 51px;
-}
+}*/
