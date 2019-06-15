@@ -48,6 +48,7 @@ p.logo {
 
 img.photo {
   width: 22vw;
+  box-sizing: content-box;
   object-fit: cover;
   margin-top: 12vw;
   border: 1vh solid rgba(255, 255, 255, 0.13);
@@ -90,10 +91,10 @@ img.photo {
   -o-border-radius: 10px;
 }
 
-@media screen and (min-device-width: 1400px) {
+/*@media screen and (min-device-width: 1400px) {
   .button li a {
     width: 100px;
     font-size: 18px;
     line-height: 35px;
   }
- }
+ }*/
